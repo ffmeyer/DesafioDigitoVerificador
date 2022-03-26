@@ -57,7 +57,7 @@ public class GeradorTest {
 	}
 		
 	@Test 
-	public void validarDadosDeEntrada() throws Exception {		
+	public void validarQuantidadeDeEntradasNoArquivo() throws Exception {		
 		assertEquals("Dados de entrada, diferentes dos dados de saida", Constants.getInputData(), readLines(Constants.RESOURCE_PATH));
 		assertEquals("Quantidade de matriculas diferentes", Constants.getInputData().size(), readLines(Constants.RESOURCE_PATH).size());
 	}
